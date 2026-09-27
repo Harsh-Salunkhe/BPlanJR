@@ -7,11 +7,11 @@ import SannidhiyaSir from "../assets/SannidhyaSir.jpg";
 import NachiketSir from "../assets/NachiketSir.jpg";
 
 const team = [
-  { name: "Nachiket Bakshi", role: "Joint Secretary", email: "nachiket11bakshi@gmail.com", phone: "+91 70006 16813", linkedin: "https://www.linkedin.com/in/nachiket-bakshi-4a09362a8/", img: NachiketSir },
-  { name: "Sannidhya Srivastava", role: "Strategic Lead", email: "sannidhya123567@gmail.com", phone: "+91 76074 76106", linkedin: "https://www.linkedin.com/in/sannidhya-srivastava-4976a9277/", img: SannidhiyaSir },
-  { name: "Harsh Malik", role: "Public Relations Lead", email: "harshmalik96433@gmail.com", phone: "+91 87703 77416", linkedin: "https://www.linkedin.com/in/harsh13malik/", img: HarshSir },
-  { name: "Gurleen Kaur Bhatia", role: "Public Relations Secretary", email: "gurleenbhatia211359@gmail.com", phone: "+91 90090 27777", linkedin: "https://www.linkedin.com/in/gurleen-kaur-bhatia-8613a2290/", img: GurleenMam },
-  { name: "Nidhi Singh Thakur", role: "Promotions Lead", email: "pvt.nidhisingh07@gmail.com", phone: "+91 94796 06424", linkedin: "https://www.linkedin.com/in/nidhi-singh-thakur-17a69a290/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", img: NiddhiMam },
+  { name: "Harman Singh Rekhi", role: "Joint Secretary", email: "harmanrekhi006@gmail.com", phone: "+91-9301040515", linkedin: "linkedin.com/in/harman-singh-rekhi-833073326", img: NachiketSir },
+  { name: "Aaradhya Laad", role: "Events Lead", email: "aaradhyalaad21@gmail.com", phone: "+91-8251093465", linkedin: "https://www.linkedin.com/in/aaradhya-laad-74a169323/", img: SannidhiyaSir },
+  { name: "Tanishka Meena", role: "Public Relations Lead", email: "mtanishka897@gmail.com", phone: "+91-8302727288", linkedin: "https://www.linkedin.com/in/tanishka-meena-10aa72323/", img: HarshSir },
+  { name: "Aryan Singh", role: "Startup & Investments Lead", email: "aryanmishra@ecellnitb.com", phone: "+91-8989120077", linkedin: "linkedin.com/in/aryan-mishra-369825326", img: GurleenMam },
+  { name: "Ayan Khan", role: "Promotions Lead", email: "ayankhanpqr0@gmail.com", phone: "+91-9589970823", linkedin: "https://www.linkedin.com/in/ayan-khan-0a9640326/", img: NiddhiMam },
 ];
 
 const TeamCard = ({ member }) => {

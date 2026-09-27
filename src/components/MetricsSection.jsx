@@ -50,8 +50,8 @@ const MetricsSection = () => (
         </span>
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-        <Counter target={130} label="Participants" />
-        <Counter target={50} label="Colleges" />
+        <Counter target={250} label="Participants" />
+        <Counter target={100} label="Colleges" />
         <Counter target={30} label="Mentors" />
         <Counter target={25} label="Startups Launched" />
       </div>

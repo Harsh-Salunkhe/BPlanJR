@@ -22,7 +22,7 @@ const AboutUs = () => (
         {[
           { icon: <Lightbulb size={32} />, title: "Innovation Hub", desc: "A platform for bold vision." },
           { icon: <Users size={32} />, title: "Elite Network", desc: "Connect with investors, industry experts and leaders." },
-          { icon: <Rocket size={32} />, title: "Venture Support", desc: "Mentorship and resources for budding startups." },
+          { icon: <Rocket size={32} />, title: "Venture Support", desc: "Mentorship and resources for building startups." },
         ].map((f) => (
           <div
             key={f.title}
@@ -38,18 +38,19 @@ const AboutUs = () => (
         <div>
           <h2 className="text-4xl lg:text-5xl font-extrabold mb-6">
             <span className="bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent text-glow">
-              About B-Plan
+              About Shark Tank Junior
             </span>
           </h2>
           <p className="text-gray-300 mb-8 text-lg">
-            Business Plan Junior Competition gives you an invaluable opportunity to pitch your business ideas to a live panel of faculty members and industry leaders, providing you with the perfect platform to showcase your potential.
+            Shark Tank Jr. is a  Prominent  platform for young entrepreneurs to pitch their business ideas before industry experts and leaders. Showcase your vision, engage with the panel and gain valuable insights to take your idea forward. 
+
           </p>
           <div className="space-y-4">
             {[
-              "Prizes and Goodies worth INR 20,000",
+              "Win exciting prizes and Goodies",
               "Mentorship from industry leaders",
               "Exclusive networking opportunities",
-              "Direct access to investors",
+              "Expert Feedback",
             ].map((item) => (
               <div key={item} className="flex items-center gap-3">
                 <CheckCircle className="text-yellow-400" size={20} />
@@ -64,10 +65,11 @@ const AboutUs = () => (
             <div className="absolute left-2 top-2 bottom-2 w-0.5 bg-yellow-500/30" />
             <ul className="space-y-8">
               {[
-                { phase: "Round 1 – PPT Submission", date: "Oct 13-20" },
-                { phase: "Round 1 Results", date: "Nov 1-2" },
-                { phase: "Round 2 – Offline Event+Mentorship", date: "Nov 8-9" },
-                { phase: " Final Results", date: "Nov 29-30" },
+                { phase: "Registration Opens", date: "29 SEPT" },
+                { phase: "Round 1 – PPT Submission", date: "29SEPT - 7OCT" },
+                { phase: "Round 1 Results", date: "8–9 OCT" },
+                { phase: "Round 2 – Offline Event+Mentorship", date: "10–11 OCT" },
+                { phase: " Final Results", date: "OCT 29-30" },
               ].map((i) => (
                 <li key={i.phase} className="flex items-center">
                   <div className="absolute left-0 h-4 w-4 rounded-full bg-yellow-400 border-4 border-gray-900" />

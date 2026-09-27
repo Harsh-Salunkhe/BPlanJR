@@ -30,7 +30,8 @@ const HeroSection = () => {
           }`}
           style={{ transitionDelay: "200ms" }}
         >
-          Join Central India’s largest Business Plan Junior Competition. A chance to bring your innovative ideas to light and vision into successful business ventures.
+         Step into the spotlight with Shark Tank Jr. where young minds pitch bold ideas, face the questions and turn their vision into the next big business.
+
         </p>
         <button
           onClick={() => scrollTo("register")}

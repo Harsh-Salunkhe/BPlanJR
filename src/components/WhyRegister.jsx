@@ -10,6 +10,7 @@ const WhyRegister = () => {
     { title: "Investor Access", desc: "Network with VCs, investors, and founders during E-Summit '26." },
     { title: "Competition", desc: "Compete for the Main Stage prize presented by the Chief Guest." },
     { title: "Pitching Experience", desc: "Gain a real pitching experience in front of industry leaders." },
+    { title: "Expert Feedback", desc: "Receive valuable insights to refine your business idea." },
   ];
 
   return (

@@ -10,7 +10,7 @@ const team = [
   { name: "Harman Singh Rekhi", role: "Joint Secretary", email: "harmanrekhi006@gmail.com", phone: "+91-9301040515", linkedin: "linkedin.com/in/harman-singh-rekhi-833073326", img: NachiketSir },
   { name: "Aaradhya Laad", role: "Events Lead", email: "aaradhyalaad21@gmail.com", phone: "+91-8251093465", linkedin: "https://www.linkedin.com/in/aaradhya-laad-74a169323/", img: SannidhiyaSir },
   { name: "Tanishka Meena", role: "Public Relations Lead", email: "mtanishka897@gmail.com", phone: "+91-8302727288", linkedin: "https://www.linkedin.com/in/tanishka-meena-10aa72323/", img: HarshSir },
-  { name: "Aryan Singh", role: "Startup & Investments Lead", email: "aryanmishra@ecellnitb.com", phone: "+91-8989120077", linkedin: "linkedin.com/in/aryan-mishra-369825326", img: GurleenMam },
+  { name: "Aryan Mishra", role: "Startup & Investments Lead", email: "aryanmishra@ecellnitb.com", phone: "+91-8989120077", linkedin: "linkedin.com/in/aryan-mishra-369825326", img: GurleenMam },
   { name: "Ayan Khan", role: "Promotions Lead", email: "ayankhanpqr0@gmail.com", phone: "+91-9589970823", linkedin: "https://www.linkedin.com/in/ayan-khan-0a9640326/", img: NiddhiMam },
 ];
 

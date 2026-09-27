@@ -1,5 +1,5 @@
 "use client";
-import Qr from "../assets/QrCode.jpg";
+import Qr from "../assets/QrCode.jpeg";
 import React, { useState } from "react";
 
 const RegisterNow = () => {

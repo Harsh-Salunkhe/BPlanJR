@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Mail, Linkedin, Phone, Instagram } from "lucide-react";  // Added Phone and Instagram icons
-import HarshSir from "../assets/HarshSir.jpg";
-import GurleenMam from "../assets/GurleenMa'am.jpg";
-import NiddhiMam from "../assets/NiddhiMa'am.jpg";
-import SannidhiyaSir from "../assets/SannidhyaSir.jpg";
-import NachiketSir from "../assets/NachiketSir.jpg";
+import HarshSir from "../assets/Tanishka.jpeg";
+import GurleenMam from "../assets/Aryan.jpeg";
+import NiddhiMam from "../assets/Ayan.jpeg";
+import SannidhiyaSir from "../assets/Aaradhya.jpeg";
+import NachiketSir from "../assets/Harman.jpeg";
 
 const team = [
   { name: "Harman Singh Rekhi", role: "Joint Secretary", email: "harmanrekhi006@gmail.com", phone: "+91-9301040515", linkedin: "linkedin.com/in/harman-singh-rekhi-833073326", img: NachiketSir },

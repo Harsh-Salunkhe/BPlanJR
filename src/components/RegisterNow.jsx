@@ -12,7 +12,7 @@ const RegisterNow = () => {
   const [status, setStatus] = useState(null);
   const [manit, setManit] = useState(""); // Track if from MANIT
   const [utrId, setUtrId] = useState(""); // Track UTR ID input
-  const [driveLink, setDriveLink] = useState("");
+
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   // NEW: Participation Type
@@ -30,7 +30,7 @@ const RegisterNow = () => {
     setIsSubmitting(true);
 
     const url =
-      "https://script.google.com/macros/s/AKfycbxoLTbvGR0mtHo7QmATsImw7dTjDks9JIssSoRxyHXr0O1Bc0hcV170xqSp4bdnM-u_/exec";
+      "https://script.google.com/macros/s/AKfycbwm3nW5pzTQKbceKWrXtd_il4hSl63COo1zTp6hgHfGsA_aoZmsoLTCFsRTJlH4HHt5/exec";
 
     try {
       const response = await fetch(url, {
@@ -44,8 +44,7 @@ const RegisterNow = () => {
           phone
         )}&Manit=${encodeURIComponent(manit)}&UTR=${encodeURIComponent(
           utrId
-        )}&Count=${encodeURIComponent(participationType)}
-        &DriveLink=${encodeURIComponent(driveLink)}`,
+        )}&Count=${encodeURIComponent(participationType)}`,
       });
 
       if (!response.ok) {
@@ -67,7 +66,7 @@ const RegisterNow = () => {
       setYear("");
       setManit("");
       setUtrId("");
-      setDriveLink("");
+      
       setParticipationType("");
     } catch (error) {
       console.error("Submission error:", error);
@@ -179,15 +178,6 @@ const RegisterNow = () => {
                 4th Year
               </option>
             </select>
-
-          <input
-  type="url"
-  value={driveLink}
-  className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-colors"
-  onChange={(e) => setDriveLink(e.target.value)}
-  placeholder="Paste your Google Drive submission link"
-  required
-/>
 
             {/* Are you from MANIT? */}
             <div className="space-y-2">

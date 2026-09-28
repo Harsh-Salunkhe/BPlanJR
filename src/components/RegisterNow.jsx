@@ -89,7 +89,7 @@ const RegisterNow = () => {
             </span>
           </h2>
           <p className="text-gray-400 mb-8 text-lg">
-            Be part of India’s most prestigious Business Plan Competition. Pitch
+            Be part of India’s most prestigious Shark Tank Junior Competition. Pitch
             your idea, get mentored, and win big.
           </p>
           <div className="hidden lg:block">

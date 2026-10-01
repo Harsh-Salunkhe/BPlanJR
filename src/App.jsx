@@ -22,7 +22,7 @@ import Navigation from './components/Navigation';
 import RegisterNow from './components/RegisterNow';
 import WhyRegister from './components/WhyRegister';
 import Footer from './components/Footer';
-
+import ResourcesSection from './components/ppt&themes';
 
 
 
@@ -38,6 +38,7 @@ export default function App() {
       <AboutUs />
       <MetricsSection />
       <WhyRegister />
+      <ResourcesSection/>
       <RegisterNow />
       <EventGallery />
       <ContactUs />

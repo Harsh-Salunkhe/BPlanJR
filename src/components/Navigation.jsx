@@ -8,8 +8,10 @@ const navItems = [
   { name: "HOME", id: "home" },
   { name: "ABOUT US", id: "about-us" },
   { name: "WHY REGISTER?", id: "why-register" },
+  { name: "RESOURCES", id: "resources" },
   { name: "GALLERY", id: "gallery" },
   { name: "CONTACT US", id: "contact" },
+  
 ];
 
 const Navigation = () => {

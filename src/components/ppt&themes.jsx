@@ -66,10 +66,10 @@ const ResourcesSection = () => {
         </p>
         <div className="mb-24">
           <DownloadButton
-            href="/downloads/SharkTankJr_Themes_Guide.pdf"
-            fileName="SharkTankJr_Themes_Guide.pdf"
-            label="Download Themes Guide"
-          />
+  href={`${import.meta.env.BASE_URL}downloads/SharkTankJr_Themes_Guide.pdf`}
+  fileName="SharkTankJr_Themes_Guide.pdf"
+  label="Download Themes Guide"
+/>
         </div>
 
         {/* PPT template */}
@@ -91,10 +91,10 @@ const ResourcesSection = () => {
           TeamName_SharkTankJr.pdf.
         </p>
         <DownloadButton
-          href="/downloads/SharkTankJr_PPT_Template.pptx"
-          fileName="SharkTankJr_PPT_Template.pptx"
-          label="Download PPT Template"
-        />
+  href={`${import.meta.env.BASE_URL}downloads/SharkTankJr_PPT_Template.pptx`}
+  fileName="SharkTankJr_PPT_Template.pptx"
+  label="Download PPT Template"
+/>
       </div>
     </section>
   );

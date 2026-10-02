@@ -2,7 +2,8 @@
 
 import React from "react";
 import { Download } from "lucide-react";
-
+import themesGuide from "../downloads/SharkTankJr_Themes_Guide.pdf?url";
+import pptTemplate from "../downloads/SharkTankJr_PPT_Template.pptx?url";
 const THEMES = [
   "Healthcare & Life Sciences", "Biotechnology", "Nanotechnology", "Green Technology",
   "Safety", "Finance Technology", "IT Services", "Enterprise Software", "Marketing",
@@ -65,8 +66,8 @@ const ResourcesSection = () => {
           {THEMES.join(" • ")}
         </p>
         <div className="mb-24">
-          <DownloadButton
-  href={`${import.meta.env.BASE_URL}downloads/SharkTankJr_Themes_Guide.pdf`}
+         <DownloadButton
+  href={themesGuide}
   fileName="SharkTankJr_Themes_Guide.pdf"
   label="Download Themes Guide"
 />
@@ -91,7 +92,7 @@ const ResourcesSection = () => {
           TeamName_SharkTankJr.pdf.
         </p>
         <DownloadButton
-  href={`${import.meta.env.BASE_URL}downloads/SharkTankJr_PPT_Template.pptx`}
+  href={pptTemplate}
   fileName="SharkTankJr_PPT_Template.pptx"
   label="Download PPT Template"
 />

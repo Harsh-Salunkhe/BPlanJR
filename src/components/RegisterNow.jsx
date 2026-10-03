@@ -102,6 +102,7 @@ const RegisterNow = () => {
             <input
               type="text"
               value={name}
+               required
               onChange={(e) => setName(e.target.value)}
               placeholder="Leader's Name"
               className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-colors"
@@ -109,6 +110,7 @@ const RegisterNow = () => {
             <input
               type="text"
               value={teamName}
+               required
               onChange={(e) => setTeamName(e.target.value)}
               placeholder="Team Name"
               className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-colors"
@@ -116,6 +118,7 @@ const RegisterNow = () => {
             <input
               type="number"
               value={phone}
+               required
               onChange={(e) => setPhone(e.target.value)}
               placeholder="Leader's Phone"
               className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-colors"
@@ -123,6 +126,7 @@ const RegisterNow = () => {
             <input
               type="email"
               value={email}
+               required
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Leader's Email"
               className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-colors"
@@ -130,6 +134,7 @@ const RegisterNow = () => {
             <input
               type="text"
               value={org}
+               required
               onChange={(e) => setOrg(e.target.value)}
               placeholder="College / School"
               className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-colors"
@@ -138,6 +143,7 @@ const RegisterNow = () => {
             <select
               value={year}
               onChange={(e) => setYear(e.target.value)}
+               required
               placeholder="Year / Standard"
               className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-colors"
             >
@@ -201,6 +207,7 @@ const RegisterNow = () => {
                     value="no"
                     checked={manit === "no"}
                     onChange={(e) => setManit(e.target.value)}
+                     required
                     className="accent-yellow-400"
                   />
                   <span>No</span>
@@ -215,6 +222,7 @@ const RegisterNow = () => {
     {/* Participation Type Dropdown */}
     <select
       value={participationType}
+       required
       onChange={(e) => setParticipationType(e.target.value)}
       className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-colors"
     >
@@ -264,6 +272,7 @@ const RegisterNow = () => {
     <input
       type="text"
       value={utrId}
+       required
       onChange={(e) => setUtrId(e.target.value)}
       placeholder="Enter UTR ID for payment verification"
       className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-colors"
